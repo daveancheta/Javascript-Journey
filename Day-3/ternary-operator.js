@@ -1,5 +1,6 @@
 const prompt = require("prompt-sync")();
 
+
 console.log("Are you underage or of legal age?");
 let ageInput = parseInt(prompt("Enter your age: "));
 
