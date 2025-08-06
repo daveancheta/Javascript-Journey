@@ -18,3 +18,9 @@ console.log(fruits2); // Output:
 
 // shift() returns the removed array element
 console.log(fruits2.shift()); // Output: Banana
+
+// The unshift() method adds new elements to the beginning of an array.
+const fruits3 = ["Apple", "Banana", "Cantaloupe", "Dragonfruit", "Elderberry"];
+fruits3.unshift("Grape", "Kiwi");
+
+console.log(fruits3);
