@@ -15,3 +15,6 @@ const fruits2 = ["Apple", "Banana", "Cantaloupe", "Dragonfruit", "Elderberry"];
 fruits2.shift();
 
 console.log(fruits2); // Output:
+
+// shift() returns the removed array element
+console.log(fruits2.shift()); // Output: Banana
