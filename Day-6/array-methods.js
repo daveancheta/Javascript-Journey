@@ -9,3 +9,9 @@ const fruits1 = ["Apple", "Banana", "Cantaloupe", "Dragonfruit", "Elderberry"];
 fruits1.push("Fig");
 
 console.log(fruits1); // Output: [ 'Apple', 'Banana', 'Cantaloupe', 'Dragonfruit', 'Elderberry', 'Fig' ]
+
+// shift() removes the first item of an array:
+const fruits2 = ["Apple", "Banana", "Cantaloupe", "Dragonfruit", "Elderberry"];
+fruits2.shift();
+
+console.log(fruits2); // Output:
