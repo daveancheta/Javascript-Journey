@@ -18,3 +18,9 @@ function showMessage() {
 function hideMessage() {
     document.getElementById("message").classList.add("hidden");
 }
+
+// On Keydown
+function myInput() {
+    let inputValue = document.querySelector("input").value;
+    document.getElementById("myText").innerHTML = inputValue;
+}
