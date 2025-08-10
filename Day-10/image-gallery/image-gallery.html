@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image-gallery</title>
+</head>
+<style>
+    .disable {
+        pointer-events: none;
+        background: gray;
+    }
+</style>
+<body>
+    <div style="display: flex; flex-direction: row;">
+        <div>
+            <img height="500px" width="500px"
+                src="https://m.media-amazon.com/images/M/MV5BMzRiNDhiMDQtYWZkMS00ZjU5LTg5NzUtOTc4NzE2Yzc0ZWUwXkEyXkFqcGc@._V1_.jpg"
+                alt="">
+            <div style="background-color: black;">
+                <h1 style="color: white;" id="displayName">Name of the person on the image?</h1>
+            </div>
+
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <input id="inputName" type="text" style="width: 100%; height: 50px;">
+            <button id="button" class="disable" onclick="submitName()">Submit</button>
+        </div>
+
+    </div>
+
+    <script src="image-gallery.js"></script>
+</body>
+
+</html>
