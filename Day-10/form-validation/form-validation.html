@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-validation</title>
+</head>
+<style>
+    .hidden {
+        display: none;
+    }
+</style>
+<body>
+     <input type="text" id="first_name" placeholder="First Name">
+    <input type="text" id="middle_name" placeholder="Middle Name">
+    <input type="text" id="surname" placeholder="Surname">
+
+    <button onclick="submitButton()">submit</button>
+
+    <div class="hidden" id="validation">
+        <h1>Please fill in all the fields.</h1>
+    </div>
+
+    <div id="submittedContainer" class="hidden">
+        <h1>Form Submitted</h1>
+        <h3>First Name: <span id="fname"></span></h3>
+        <h3>Middle Name: <span id="mname"></span></h3>
+        <h3>Surname: <span id="sname"></span></h3>
+    </div>
+
+    <div>
+        <h1 id="error"></h1>
+    </div>
+    <script src="form-validation.js"></script>
+</body>
+</html>
