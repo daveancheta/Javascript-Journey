@@ -1,7 +1,7 @@
 // Form Validation
 
 // != & !== - inequality operators
-// == & === - Equality Operators"
+// == & === - Equality Operators
 
 function submitButton() {
     const fnameInput = document.getElementById("first_name").value;
