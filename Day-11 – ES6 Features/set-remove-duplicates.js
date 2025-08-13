@@ -1,3 +1,4 @@
+// Create a Set and remove duplicates
 const number = [1, 2, 3, 4, 5, 2, 1, 3];
 
 let result = uniqueNumber(number);
