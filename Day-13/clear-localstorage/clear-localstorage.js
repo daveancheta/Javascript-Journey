@@ -21,3 +21,8 @@ function submitForm(event, form) {
     });
 
     document.getElementById("displayCart").innerHTML = cart;
+
+function clearStorage() {
+    localStorage.clear();
+    location.reload();
+}
