@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clear-localstorage</title>
+</head>
+<body>
+    <div style="display: flex; justify-content: space-between; margin: 50px; ">
+    <div>
+        Cart 1
+        <p>Product: Laptop - Asus TUf</p>
+        <p>Price: $25,500</p>
+
+        <form onsubmit="submitForm(event, this)">
+            <input type="hidden" name="product" value="Laptop - Asus TUf">
+            <input type="hidden" name="price" value="25500">
+            <button type="submit">Add to Cart</button>
+        </form>
+    </div>
+
+    <div>
+        Cart 2
+        <p>Product: Laptop - Acer Nitro</p>
+        <p>Price: $20,500</p>
+
+        <form onsubmit="submitForm(event, this)">
+            <input type="hidden" name="product" value="Laptop - Acer Nitro">
+            <input type="hidden" name="price" value="20500">
+
+            <button type="submit">Add to Cart</button>
+        </form>
+    </div>
+
+     <div>
+        Cart 3
+        <p>Product: Laptop - Mac AIR PRO</p>
+        <p>Price: $15,500</p>
+
+        <form onsubmit="submitForm(event, this)">
+            <input type="hidden" name="product" value="Laptop - Mac AIR PRO">
+            <input type="hidden" name="price" value="25500">
+
+            <button type="submit">Add to Cart</button>
+        </form>
+    </div>
+    </div>
+
+    <div>
+        Cart 
+        <div id="displayCart">
+
+        </div>
+    </div>
+    <script src="clear-localstorage.js"></script>
+</body>
+</html>
